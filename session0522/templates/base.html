@@ -1,0 +1,25 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href="{% static 'likelion/css/style.css' %}">
+    <title>배포용</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <div id="logo">
+            <img src="#" />
+        </div>
+        <ul class="right-nav">
+            <li>HOME</li>
+            <li>History</li>
+            <li>Portfilo</li>
+        </ul>
+    </div>
+    {% block contents %}
+    {% endblock %}
+</body>
+</html>

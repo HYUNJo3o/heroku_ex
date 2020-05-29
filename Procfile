@@ -1,0 +1,1 @@
+web: gunicorn session0522.wsgi

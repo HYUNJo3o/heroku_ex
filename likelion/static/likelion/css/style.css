@@ -1,0 +1,9 @@
+.nav {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+    margin: 30px;
+}
+
+.right-nav {
+    display: flex;
+}
